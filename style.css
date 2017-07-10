@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: dejavu sans mono;
+}
+
+head{
+  font-size: 0;
+}
+
+h1 {
+}
+
+.main-header {
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/footer_lodyas.png);
+  color: #ffffff;
+  padding-bottom: 4px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  width: 15%;
+  background-image: url(images/footer_lodyas.png);
+  height: 100%;
+  position: fixed;
+  transition: transform .5s;
+  transform: translateX(-90%);
+}
+
+.nav:hover {
+  transform: translateX(0%);
+}
+
+.navlink {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  transition: transform .5s;
+  font-size: 14px;
+}
+
+.navlink:hover {
+  background-color: #36c179;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 50%;
+  margin: auto;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.content {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  border: 3px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #ffffff;
+  background-image: url(images/cork-wallet.png);
+}
+
+.contentlink {
+	list-style: none;
+  text-decoration: none;
+	text-align: center;
+  display: block;
+  color: #000000;
+  padding: 10px;
+  font-size: 14px;
+	margin: 0px;
+}
+
+.contentlink:hover {
+  background-color: #36c179;
+}
